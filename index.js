@@ -25,6 +25,15 @@ const questions = [
             { text: "Dennis Ritchie",correct: false},
             { text: "Bjarne Stroustrup",correct: false},
         ]
+    },
+    {
+        question : "Which of these is not a Java feature?",
+        answers : [
+             { text: "Object-oriented",correct: false},
+            { text: "Portable",correct: true},
+            { text: "Dynamic",correct: false},
+            { text: "Use of pointers",correct: false},
+        ]
     }
         
 ];
@@ -111,5 +120,6 @@ nextButton.addEventListener("click", ()=>{
 })
 
 startQuiz();
+
 
 
