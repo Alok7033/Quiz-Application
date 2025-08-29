@@ -18,14 +18,14 @@ const questions = [
         ]
     },
     {
-        question : "Who invented Java Programming?",
+        question :  "Who invented Java Programming?",
         answers : [
             { text: "Guido van Rossum",correct: false},
             { text: "James Gosling",correct: true},
             { text: "Dennis Ritchie",correct: false},
             { text: "Bjarne Stroustrup",correct: false},
         ]
-     },      
+    }
         
 ];
 
@@ -111,4 +111,5 @@ nextButton.addEventListener("click", ()=>{
 })
 
 startQuiz();
+
 
